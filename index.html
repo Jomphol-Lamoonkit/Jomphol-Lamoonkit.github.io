@@ -1,7 +1,491 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Personal Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="images/background.jpg" />
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/et-lineicons.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style> .myButton{ padding: 10px 20px; background-color: #1167b1; border: 0px; color: #fff; } .myButton:hover{ background-color: #28b870; border: 1px solid rgb(255, 255, 255); color: #fff; } </style>
+    <style>
+        .container {
+          background-image: url("img.png");
+          background-repeat: no-repeat;
+          min-height: 940px;
+          height: 100%;
+          margin: 10px 30px;
+        }
+        df-messenger {
+            --df-messenger-bot-message: #000000;
+            --df-messenger-button-titlebar-color: #000000;
+            --df-messenger-chat-background-color: #fafafa;
+            --df-messenger-font-color: white;
+            --df-messenger-send-icon: 000000;
+            --df-messenger-user-message: #2554ac;
+            --df-messenger-chip-border-color:000000;
+        }
+    </style>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div id="addo-page"> <a href="#" class="js-addo-nav-toggle addo-nav-toggle"><i></i></a>
+        <!-- Sidebar Section -->
+        <aside id="addo-aside">
+            <!-- Logo -->
+            <div id="addo-logo"> <a href="index.html">Personal Web<span>Batjargal Dorjzodovsuren</span></a> </div>
+            <!-- Menu -->
+            <nav id="addo-main-menu">
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#services">Projects</a></li>
+                    <li><a href="index.html#portfolio">Communities</a></li>
+                    <li><a href="index.html#news">On News</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- Sidebar Footer -->
+            <div class="addo-footer">
+                <ul>
+                    <li><a href="https://www.facebook.com/dorjzodovsuren.batjargal.7/"><i class="ti-facebook font-14px black-icon"></i></a></li>
+                    <li><a href="https://www.instagram.com/dorjzodovsuren/"><i class="ti-instagram font-14px black-icon"></i></a></li>
+                    <li><a href="http://linkedin.com/in/dorjzodovsuren-batjargal-1896b9119"><i class="ti-linkedin font-14px black-icon"></i></a></li>
+                    <li><a href="https://github.com/dorjzodovsuren"><i class="ti-github font-14px black-icon"></i></a></li>
+                </ul>
+                <p><small>&copy; 2021 Personal Web by <a href="#">Dorjzodovsuren</a></small></p>
+            </div>
+        </aside>
+
+
+        <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+        <df-messenger
+          intent="WELCOME"
+          chat-title="Dorjmaa, AI-based chatbot assistant"
+          agent-id="be770f5a-66c0-4c67-8ea9-c5949d367a16"
+          language-code="en"
+        ></df-messenger>
+
+        <!-- Main Section -->
+        <div id="addo-main">
+            <!-- Home Section -->
+            <div id="home" class="section">
+                <div class="addo-hero js-fullheight">
+                    <!-- Slider -->
+                    <div class="flexslider js-fullheight">
+                        <ul class="slides">
+                            <li style="background-image: url(images/background.jpeg);">
+                                <div class="overlay"></div>
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-12 js-fullheight slider-text">
+                                            <div class="slider-text-inner">
+                                                <div class="desc">
+                                                    <div class="image_wrap"> <img src="https://www.dropbox.com/s/b4lbcirdmc8y3vm/xmas_20x20.JPG?raw=1" alt=""> </div>
+                                                    <h1>BATJARGAL DORJZODOVSUREN</h1>
+                                                    <h2 class="cd-headline clip">
+                                                        <span>I'm</span>
+                                                        <span class="cd-words-wrapper">
+                                                          <b class="is-visible">&nbsp;Data Analyst</b>
+                                                          <b>&nbsp;Machine learning Enthusiast</b>
+                                                          <b>&nbsp;Active learner</b>
+                                                        </span>
+                                                    </h2> </div>
+                                                <div class="arrow bounce">
+                                                    <a href="index.html#about" data-scroll-nav="1" class=""> <i class="ti-angle-double-down"></i> </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- About Section -->
+            <div id="about" class="section">
+                <div class="addo-about">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12"> <span class="heading-meta">Information</span>
+                                <h2 class="addo-heading animate-box" data-animate-effect="fadeInLeft">About Me</h2> </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-5"> <img src="https://www.dropbox.com/s/l1eq66dwmo53f2h/Dorjzodovsuren_resize.jpg?raw=1" class="img-fluid mb-30 animate-box" data-animate-effect="fadeInLeft" alt=""> </div>
+                            <div class="col-md-7 animate-box" data-animate-effect="fadeInLeft"> <span class="heading-meta">ABOUT ME</span>
+                                <h2 class="cd-headline clip">
+                                    <span>I'm Batjargal Dorjzodovsuren. The words which can describe myself are : </span>
+                                    <span class="cd-words-wrapper">
+                                        <b class="is-visible">Data Analyst</b>
+                                        <b>Machine learning Engineer</b>
+                                        <b>Active Learner</b>
+                                    </span>
+                                </h2>
+                                <p>Hi, My name is Batjargal Dorjzodovsuren. I am a hardworking and ambitious individual with a great passion for
+                                    the IT industry and automation. I am currently in my first-year of
+                                    studying application of Artificial Intelligence in Education (Master degree) at Tokyo Institute of
+                                    Technology. School curriculum and environment enable me to
+                                    effectively communicate with a wide range of people. I am seeing a
+                                    full-time position in the industry in which I can put into practice my
+                                    knowledge and experience, ultimately benefiting the operations of the
+                                    organization that I work for.</p>
+                                <div class="addo-about-contact-wrap">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p><b>Birthday:</b> 2 December 1995</p>
+                                            <p><b>Japanese language:</b> N2 level</p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p><b>Degree:</b> Bachelor</p>
+                                            <p><b>Mail:</b> ibdzs.db@gmail.com</p>
+                                            <p><b>Linkedin:</b> /dorjzodovsuren-batjargal</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <ul class="toolbar">
+                                  <li><a href="https://www.dropbox.com/s/ec2w9yrir6w5tbv/Resume.pdf?raw=1" download="GFG"><button class="btn">DOWNLOAD MY CV</button></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Services Section -->
+            <div id="services" class="section">
+                <div class="addo-services">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12"> <span class="heading-meta">What I Have Done</span>
+                                <h2 class="addo-heading animate-box" data-animate-effect="fadeInLeft">Projects</h2> </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="addo-feature animate-box" data-animate-effect="fadeInLeft">
+                                    <div class="addo-icon"> <span class="et-chat font-35px"></span> </div>
+                                    <div class="addo-text">
+                                        <h3>Deep learning based a chatbot on LINE platform</h3>
+                                        <p>Developed, implemented and tested the deep learning based Chatbot assistant named <b>Titako</b> (on LINE platform) for visitors and students to automate navigation process inside Ookayama campus .
+                                            <p></p>
+                                                <t>
+                                                    <a href="https://colab.research.google.com/drive/1fjs_ILra0PC3jUYXYbiHD4gK0s9mk6_i?usp=sharing" target="_blank">
+                                                        <button type="button" class="glow-on-hover" data-toggle="collapse" data-target="#members" style="background-color: #000000;border-radius: 12px;margin: 1px 1px;padding: 8px">Click here to see a project</button>
+                                                    </a>
+                                                </t>
+                                            </p>
+                                    </div>
+                                </div>
+                                
+                                <div class="addo-feature animate-box" data-animate-effect="fadeInLeft">
+                                    <div class="addo-icon"> <span class="et-presentation font-35px"></span> </div>
+                                    <div class="addo-text">
+                                        <h3>
+                                            <a href="https://colab.research.google.com/drive/1oMNOpiSQ-U4ss6U1JKwtbFcZ8kMK9VqF?usp=sharing" target="_blank">Tokyo2020 ticket recommendation system using Natural language processing</a>
+                                        </h3>
+                                        <p>We analyzed the <b>Tokyo2020</b> ticket purchase data to build a recommendation system. The main task in this project was to implement Natural Language Processing to find the user's favourite sport.
+                                            <p></p>
+                                                <t>
+                                                    <a href="https://colab.research.google.com/drive/1oMNOpiSQ-U4ss6U1JKwtbFcZ8kMK9VqF?usp=sharing" target="_blank">
+                                                        <button type="button" class="glow-on-hover" data-toggle="collapse" data-target="#members" style="background-color: #000000;border-radius: 12px;margin: 1px 1px;padding: 8px">Click here to see a project</button>
+                                                    </a>
+                                                </t>
+                                            </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="addo-feature animate-box" data-animate-effect="fadeInLeft">
+                                    <div class="addo-icon"> <span class="et-map font-35px"></span> </div>
+                                    <div class="addo-text">
+                                        <h3><a href="https://dorjzodovsuren.github.io/Mongolian-Tent/" target="_blank">A Guide website for Mongolian food festival at Tokyo Tech</a></h3>
+                                        <p>We developed a website for <b>the convenience of customers</b> who visited our Mongolian food tent to enjoy Mongolian cuisine culture during Tokyo Tech Kodaisai festival.
+                                            <p></p>
+                                                <t>
+                                                    <a href="https://dorjzodovsuren.github.io/Mongolian-Tent/" target="_blank">
+                                                        <button type="button" class="glow-on-hover" data-toggle="collapse" data-target="#members" style="background-color: #000000;border-radius: 12px;margin: 1px 1px;padding: 8px">Click here to visit the website.</button>
+                                                    </a>
+                                                </t
+                                            ></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- <div class="col-md-4">
+                                <div class="addo-feature animate-box" data-animate-effect="fadeInLeft">
+                                    <div class="addo-icon"> <span class="et-tools-2 font-35px" style="color:#1167b1"></span> </div>
+                                    <div class="addo-text">
+                                        <h3>3D model Sculpting</h3>
+                                        <div class="sketchfab-embed-wrapper"> <iframe title="Monchan V2" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="240" height="240" src="https://sketchfab.com/models/c4436625d3ff43938aab24a8878d8532/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/monchan-v2-c4436625d3ff43938aab24a8878d8532?utm_medium=embed&utm_campaign=share-popup&utm_content=c4436625d3ff43938aab24a8878d8532" target="_blank" style="font-weight: bold; color: #1CAAD9;"> Monchan V2 </a> by <a href="https://sketchfab.com/Ibdzs?utm_medium=embed&utm_campaign=share-popup&utm_content=c4436625d3ff43938aab24a8878d8532" target="_blank" style="font-weight: bold; color: #1CAAD9;"> Dorjzodovsuren Batjargal </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=c4436625d3ff43938aab24a8878d8532" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+                                    </div>
+                                </div>
+                            </div> -->
+
+
+
+                            <div class="col-md-4">
+                                <div class="addo-feature animate-box" data-animate-effect="fadeInLeft">
+                                    <div class="addo-icon"> <span class="et-tools-2 font-35px" style="color:#1167b1"></span> </div>
+                                    <div class="addo-text">
+                                        <h3>On going Project beside part-time job</h3>
+                                        <p>
+                                            Using Natural Language Processing approaches to <b style="color:#1167b1">solve and improve functionality</b> of <a href="https://jobandwork.jp/">Job&Work</a> mobile application.
+                                            <br><b>Things to do:</b>
+                                                <li>Develop semantic search API (POC)</li>
+
+                                                        <a href="https://colab.research.google.com/drive/1nVUAPNRpM7fQID73_xPATNA6nP-ByAUe?usp=sharing" target="_blank"><b style="color:#1167b1";>Click here to run an example API notebook</b></a>
+                                                        <p></p>
+                                                <li>Japanese description text classifier 
+                                                    <br>
+                                                        <a href="https://colab.research.google.com/drive/1FALb2lS3Ra3YpQmssGVAk1KfNkU1Qr2R?usp=sharing" target="_blank"><b style="color:#1167b1";>Click here to run an example classifier notebook</b></a>
+                                                        <p></p>
+                                                    </li>
+                                            
+                                                <li>Implementing the <b>Machine learning</b> in Mongolian spring festival advertisement
+                                                    <br>
+                                                        <a href="https://colab.research.google.com/drive/1Xsp1iGLxZk6IAtYeFRIFqu3T_cah5CYu?usp=sharing" target="_blank"><b style="color:#1167b1";>Click here to run an example DeepFake notebook</b></a>
+                                                        <p></p>
+                                                </li>
+
+                                                <li>Sculpting 3D model for kids who interested in Mongolian culture.
+                                                   <p> <br> </p>
+                                                   <div class="sketchfab-embed-wrapper"> <iframe title="Monchan" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="240" height="240" src="https://sketchfab.com/models/c4436625d3ff43938aab24a8878d8532/embed?autospin=1&autostart=1"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: white;"> <a href="https://sketchfab.com/3d-models/monchan-v2-c4436625d3ff43938aab24a8878d8532?utm_medium=embed&utm_campaign=share-popup&utm_content=c4436625d3ff43938aab24a8878d8532" target="_blank" style="font-weight: bold; color: #1167b1;"> Monchan</a> by <a href="https://sketchfab.com/Ibdzs?utm_medium=embed&utm_campaign=share-popup&utm_content=c4436625d3ff43938aab24a8878d8532" target="_blank" style="font-weight: bold; color: #1167b1;"> Dorjzodovsuren Batjargal </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=c4436625d3ff43938aab24a8878d8532" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+                                                   <p> <br> </p>
+                                                </li>
+                                        
+                                                <li>Developing Multi-language Speech-to-Text web-application using Neumorphism design.
+                                                    <br>
+                                                        <a href="http://rekoko.club" target="_blank"><button class="myButton" style="border-radius: 12px;margin: 1px 1px;padding: 8px">Click here to visit Rekoko web-application.</button></a>
+                                                </li>
+
+                                                <li>Modifying the UI of the official website of U-no Active INC. to make it more user-friendly.
+                                                    <br>
+                                                        <a href="https://dorjzodovsuren.github.io/Company_web/" target="_blank"><button class="myButton" style="border-radius: 12px;margin: 1px 1px;padding: 8px">Click here to visit the website.</button></a>
+                                                </li>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- <div class="col-md-12">
+                                <div class="addo-feature animate-box" data-animate-effect="fadeInLeft">
+                                    <div class="addo-icon"> <span class="et-tools-2 font-35px" style="color:#1167b1"></span> </div>
+                                    <div class="addo-text">
+                                        <h3>On going Project beside part-time job</h3>
+
+                                             <iframe height="430" width="350" src="https://bot.dialogflow.com/88d27876-0b0e-442f-9304-ea4fed284eb0"></iframe>
+
+                                    </div>
+                                </div>
+                            </div> -->
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio Section -->
+            <div id="portfolio" class="section">
+                <div class="addo-projects">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12"> <span class="heading-meta">My Communities</span>
+                                <h2 class="addo-heading animate-box" data-animate-effect="fadeInLeft">Lucky to have such a wonderful people</h2> </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                                <!-- <a href="projects-single.html" class="desc"> -->
+                                    <div class="project"> <img src="https://www.dropbox.com/s/kr21y5o7ydtrucb/gsep.JPG?raw=1" class="img-fluid" alt="">
+                                        <div class="desc">
+                                            <div class="con">
+                                                <h3>Undergraduate friends</h3> <span>GSEP is the my Undergraduate studying program in Tokyo Tech. By that program, i have found such a wonderful people.</span> </div>
+                                        </div>
+                                    </div>
+                                <!-- </a> -->
+                            </div>
+                            <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                                <a href="projects-single.html" class="desc">
+                                    <div class="project"> <img src="https://www.dropbox.com/s/1hkx2eceyu0lwni/yamoh_2019.JPG?raw=1" class="img-fluid" alt="">
+                                        <div class="desc">
+                                            <div class="con">
+                                                <h3>Mongolian Student Association in Japan</h3> <span>We give our hands to the students in Japan when they need help.</span> </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                                <!-- <a href="projects-single.html" class="desc"> -->
+                                    <div class="project"> <img src="https://www.dropbox.com/s/sfkh5g4n39iip44/DA.JPG?raw=1" class="img-fluid" alt="">
+                                        <div class="desc">
+                                            <div class="con">
+                                                <h3>Part-time work family</h3> <span>Wonderful community that always supports and challanges me.</span> </div>
+                                        </div>
+                                    </div>
+                                <!-- </a> -->
+                            </div>
+                            <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                                <!-- <a href="projects-single.html" class="desc"> -->
+                                    <div class="project"> <img src="https://www.dropbox.com/s/jgqizjberr0hxz9/Japanese_family.JPG?raw=1" class="img-fluid" alt="">
+                                        <div class="desc">
+                                            <div class="con">
+                                                <h3>Japanese Family</h3> <span>Their prestigious advice and support helps me all the time.</span> </div>
+                                        </div>
+                                    </div>
+                                <!-- </a> -->
+                            </div>
+                            <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                                <!-- <a href="projects-single.html" class="desc"> -->
+                                    <div class="project"> <img src="https://www.dropbox.com/s/4xb009o4303iajy/with_bro.JPG?raw=1" class="img-fluid" alt="">
+                                        <div class="desc">
+                                            <div class="con">
+                                                <h3>Medical doctor of Altanbulag province</h3> <span>Childhood Mentor. He is a great human-being</span> </div>
+                                        </div>
+                                    </div>
+                                <!-- </a> -->
+                            </div>
+                            <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                                <!-- <a href="projects-single.html" class="desc"> -->
+                                    <div class="project"> <img src="https://www.dropbox.com/s/wk1gwpk2krcocaq/lab_members.jpg?raw=1" class="img-fluid" alt="">
+                                        <div class="desc">
+                                            <div class="con">
+                                                <h3>Laboratory members</h3> <span>Warm-hearted people</span> </div>
+                                        </div>
+                                    </div>
+                                <!-- </a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- News Section -->
+            <div id="news" class="section">
+                <div class="addo-blog">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12"> <span class="heading-meta">Read</span>
+                                <h2 class="addo-heading animate-box" data-animate-effect="fadeInLeft">ON NEWS</h2> </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4">
+                                <div class="blog-entry animate-box" data-animate-effect="fadeInLeft">
+                                    <a href="https://kakehashi-media.com/article/show/13?fbclid=IwAR1SqxY5uTFf5A3POTkn7mkslHGq-QtM37nL4qdNsZnMj-c8hw4L54kLsFU" class="blog-img"><img src="images/kakehashi_image.png" class="img-fluid" alt=""></a>
+                                    <div class="desc"> <span>in <b><a href="https://kakehashi-media.com/article/show/13?fbclid=IwAR1SqxY5uTFf5A3POTkn7mkslHGq-QtM37nL4qdNsZnMj-c8hw4L54kLsFU">KAKEHASHI-MEDIA</a></b></span>
+                                        <h3><a href="https://kakehashi-media.com/article/show/13?fbclid=IwAR1SqxY5uTFf5A3POTkn7mkslHGq-QtM37nL4qdNsZnMj-c8hw4L54kLsFU">What i learned after studying in Japan</a></h3>
+                                        <p>After i have worked <a href="http://www.seijoishii.co.jp/en/">Seijo-Ishii</a> for 2 months,<a href="https://kakehashi-job.com/">KAKEHASHI company</a> which helped international student in Japan asked me to give interview about my own part-time job experience.
+                                            <br>
+                                            <div class="d-flex col-sm-12">
+                                                <b><a href="https://kakehashi-media.com/article/show/13?fbclid=IwAR1SqxY5uTFf5A3POTkn7mkslHGq-QtM37nL4qdNsZnMj-c8hw4L54kLsFU">Please click here to read a full interview</a></b>
+                                            </div>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <div class="blog-entry animate-box" data-animate-effect="fadeInLeft">
+                                    <a href="https://www.facebook.com/notes/%D1%88%D0%B8%D0%BD%D1%8D-%D0%BC%D0%BE%D0%BD%D0%B3%D0%BE%D0%BB-%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B9%D0%BD-%D0%B4%D1%8D%D1%8D%D0%B4-%D1%81%D1%83%D1%80%D0%B3%D1%83%D1%83%D0%BB%D1%8C/%D1%88%D0%BC%D1%82%D0%B4%D1%81-%D0%B8%D0%B9%D0%BD-%D0%BE%D1%8E%D1%83%D1%82%D0%B0%D0%BD-%D0%B1%D0%B4%D0%BE%D1%80%D0%B6%D0%B7%D0%BE%D0%B4%D0%BE%D0%B2%D1%81%D2%AF%D1%80%D1%8D%D0%BD%D0%B3%D0%B8%D0%B9%D0%BD-%D1%85%D1%8D%D1%80%D1%85%D1%8D%D0%BD-%D0%BC%D3%A9%D1%80%D3%A9%D3%A9%D0%B4%D3%A9%D0%BB-%D0%BD%D1%8C-%D0%B1%D0%B8%D0%B5%D0%BB%D1%81%D1%8D%D0%BD-%D1%82%D1%83%D1%85%D0%B0%D0%B9-%D0%B1%D0%BE%D0%BB%D0%BE%D0%BD-%D1%82%D2%AF%D2%AF%D0%BD/1496800083732822/?comment_tracking=%7B%22tn%22%3A%22O%22%7D" class="blog-img"><img src="images/Mongolian_interview.jpg" class="img-fluid" alt=""></a>
+                                    <div class="desc"> <span>in <b><a href="#">MONGOLIAN WEBSITE</a></b></span>
+                                        <h3><a href="https://www.facebook.com/notes/%D1%88%D0%B8%D0%BD%D1%8D-%D0%BC%D0%BE%D0%BD%D0%B3%D0%BE%D0%BB-%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B9%D0%BD-%D0%B4%D1%8D%D1%8D%D0%B4-%D1%81%D1%83%D1%80%D0%B3%D1%83%D1%83%D0%BB%D1%8C/%D1%88%D0%BC%D1%82%D0%B4%D1%81-%D0%B8%D0%B9%D0%BD-%D0%BE%D1%8E%D1%83%D1%82%D0%B0%D0%BD-%D0%B1%D0%B4%D0%BE%D1%80%D0%B6%D0%B7%D0%BE%D0%B4%D0%BE%D0%B2%D1%81%D2%AF%D1%80%D1%8D%D0%BD%D0%B3%D0%B8%D0%B9%D0%BD-%D1%85%D1%8D%D1%80%D1%85%D1%8D%D0%BD-%D0%BC%D3%A9%D1%80%D3%A9%D3%A9%D0%B4%D3%A9%D0%BB-%D0%BD%D1%8C-%D0%B1%D0%B8%D0%B5%D0%BB%D1%81%D1%8D%D0%BD-%D1%82%D1%83%D1%85%D0%B0%D0%B9-%D0%B1%D0%BE%D0%BB%D0%BE%D0%BD-%D1%82%D2%AF%D2%AF%D0%BD/1496800083732822/?comment_tracking=%7B%22tn%22%3A%22O%22%7D">Shared experience of student life</a></h3>
+                                        <p>Shared my childhood experience with the other young student who want to study abroad such as in Japan. The main content is about my experience of moving to the city for studying, challenges i faced after that decisions and how i overcome that challenges. 
+                                            <br>
+                                            <div class="d-flex col-sm-12">
+                                                <b>
+                                                    <a href="https://www.facebook.com/notes/%D1%88%D0%B8%D0%BD%D1%8D-%D0%BC%D0%BE%D0%BD%D0%B3%D0%BE%D0%BB-%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B9%D0%BD-%D0%B4%D1%8D%D1%8D%D0%B4-%D1%81%D1%83%D1%80%D0%B3%D1%83%D1%83%D0%BB%D1%8C/%D1%88%D0%BC%D1%82%D0%B4%D1%81-%D0%B8%D0%B9%D0%BD-%D0%BE%D1%8E%D1%83%D1%82%D0%B0%D0%BD-%D0%B1%D0%B4%D0%BE%D1%80%D0%B6%D0%B7%D0%BE%D0%B4%D0%BE%D0%B2%D1%81%D2%AF%D1%80%D1%8D%D0%BD%D0%B3%D0%B8%D0%B9%D0%BD-%D1%85%D1%8D%D1%80%D1%85%D1%8D%D0%BD-%D0%BC%D3%A9%D1%80%D3%A9%D3%A9%D0%B4%D3%A9%D0%BB-%D0%BD%D1%8C-%D0%B1%D0%B8%D0%B5%D0%BB%D1%81%D1%8D%D0%BD-%D1%82%D1%83%D1%85%D0%B0%D0%B9-%D0%B1%D0%BE%D0%BB%D0%BE%D0%BD-%D1%82%D2%AF%D2%AF%D0%BD/1496800083732822/?comment_tracking=%7B%22tn%22%3A%22O%22%7D">Please click here to read a full interview</a>
+                                                </b>
+                                            </div>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <div class="blog-entry animate-box" data-animate-effect="fadeInLeft">
+                                    <a href="http://www.tse.ens.titech.ac.jp/~gsep/2018/05/11/gsep-study-trip-2018-a-visit-to-the-entrepreneurial-museum-of-challenge-and-innovation/" class="blog-img"><img src="images/gsep_trip.jpg" class="img-fluid" alt=""></a>
+                                    <div class="desc"> <span>in <b><a href="#">TOKYO TECH FACULTY WEBSITE</a></b></span>
+                                        <h3><a href="http://www.tse.ens.titech.ac.jp/~gsep/2018/05/11/gsep-study-trip-2018-a-visit-to-the-entrepreneurial-museum-of-challenge-and-innovation/">Field trip reflection note</a></h3>
+                                        <p>Written a reflection note about what i felt during when we visited industries in Kyoto, Osaka as a field trip with other students and professors.
+                                            <br>
+                                        <div class="d-flex col-sm-12">
+                                            <b><a href="http://www.tse.ens.titech.ac.jp/~gsep/2018/05/11/gsep-study-trip-2018-a-visit-to-the-entrepreneurial-museum-of-challenge-and-innovation/">Please click here to read a full note</a></b>
+                                        </div>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Contact Section -->
+            <div id="contact" class="section">
+                <div class="addo-contact">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12"> <span class="heading-meta">Location</span>
+                                <h2 class="addo-heading animate-box" data-animate-effect="fadeInLeft">Contact Me</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!-- Contact Info -->
+                            <div class="col-md-6 mb-30 animate-box" data-animate-effect="fadeInLeft">
+                                <p><b>FEEL FREE TO CONTACT ANYTIME</b>
+                                    <br>I'll be glad to answer any of your questions.</p>
+                            </div>
+                            <!-- Contact Form -->
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                                <p>
+                                    <b>GET IN TOUCH</b>
+                                </p>
+
+                                <a href="mailto:ibdzs.db@gmail.com?subject=GET IN TOUCH!&body=Please input your information as requested below.%0D%0A--------------------------------------------------------------%0D%0AName:%0D%0AOccupation:%0D%0AContent:">Get contact via an email address</a>&emsp;<a href="mailto:ibdzs.db@gmail.com?subject=GET IN TOUCH!&body=Please input your information as requested below.%0D%0A--------------------------------------------------------------%0D%0AName:%0D%0AOccupation:%0D%0AContent:">
+                                    <p></p>
+                                    <div class="d-flex col-sm-12"></div>
+                                    <button type="button" class="glow-on-hover" data-toggle="collapse" data-target="#members" style="background-color: #000000;border-radius: 12px;margin: 1px 1px;padding: 8px">SAY HELLO</button>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer -->
+            <div id="addo-footer2" class="section">
+                <div class="addo-narrow-content">
+                    <div class="row">
+                        <div class="col-md-4 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+                            <p class="addo-lead">© 2021 Batjargal Dorjzodovsuren</p>
+                        </div>
+                        <div class="col-md-4 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+                            <h2 class="text-center">DORJZODOVSUREN<br /><span>BATJARGAL DORJZODOVSUREN</span></h2> </div>
+                        <div class="col-md-4 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+                            <ul class="social-network">
+                                <li><a href="https://www.facebook.com/dorjzodovsuren.batjargal.7/"><i class="ti-facebook font-14px white-icon"></i></a></li>
+                                <li><a href="https://www.instagram.com/dorjzodovsuren/"><i class="ti-instagram font-14px white-icon"></i></a></li>
+                                <li><a href="http://linkedin.com/in/dorjzodovsuren-batjargal-1896b9119"><i class="ti-linkedin font-14px white-icon"></i></a></li>
+                                <li><a href="https://github.com/dorjzodovsuren"><i class="ti-github font-14px white-icon"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Js -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/animated.headline.js"></script>
+    <script src="js/sticky-kit.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
